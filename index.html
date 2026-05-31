@@ -1,0 +1,293 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramnujam Public School</title>  
+    <link rel="stylesheet" href="style.css">
+</head>
+  <script src="script.js"></script>
+<body>
+    <div id="main">
+        <div id="header">
+            <div id="logo">
+                <img src="second_logo.png" alt="School Logo" id="logo-img">
+                <span id="logo-text">Ramnujam Public School</span>
+            </div>
+            <div id="box"><div class="text"><a href="#"><p>Home</p></a></div>
+            <div class="text"><a href="#"><p>About</p></a></div>
+            <div class="text"><a href="#"><p>Academics</p></a></div>
+            <div class="text"><a href="#"><p>Faculty</p></a></div>
+            <div class="text"><a href="#"><p>Admission</p></a></div>
+            <div class="text"><a href="#"><p>Gallery</p></a></div>
+            <div class="text"><a href="#"><p>Contact</p></a></div>
+        </div>    
+            
+        </div>
+        <div id="fackheader"></div>
+        <div id="page1"></div>
+        <div id="page2"></div>
+    </div>
+</body>
+</html> 
+
+
+ -->
+
+
+
+ <!-- claude code -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramnujam Public School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="main">
+
+        <!-- NAVBAR -->
+        <div id="header">
+            <div id="logo">
+                <img src="second_logo.png" alt="School Logo" id="logo-img">
+                <span id="logo-text">Ramnujam Public School</span>
+            </div>
+            <div id="box">
+                <div class="text"><a href="#">Home</a></div>
+                <div class="text"><a href="#">About</a></div>
+                <div class="text"><a href="#">Academics</a></div>
+                <div class="text"><a href="#">Faculty</a></div>
+                <div class="text"><a href="#">Admission</a></div>
+                <div class="text"><a href="#">Gallery</a></div>
+                <div class="text"><a href="#">Contact</a></div>
+            </div>
+            <div id="hamburger" onclick="toggleMenu()">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div id="fackheader"></div>
+
+        <!-- HERO -->
+        <div id="page1">
+            <div id="hero-overlay"></div>
+            <div id="hero-content">
+                <p id="hero-tag">Est. 2000 · Garhani Bhojpur</p>
+                <h1 id="hero-title">Illuminating Minds,<br>Shaping Futures</h1>
+                <p id="hero-motto">तमसो मा ज्योतिर्गमय — Lead us from Darkness to Light</p>
+                <div id="hero-btns">
+                <a href="admission.html" class="btn-primary">Apply for Admission</a>
+                <a href="admission.html" class="btn-primary">Apply for Admission</a>
+                </div>
+            </div>
+            <div id="hero-logo-wrap">
+                <img src="second_logo.png" alt="Logo" id="hero-logo">
+            </div>
+        </div>
+
+        <!-- STATS BAR -->
+        <div id="stats-bar">
+            <div class="stat-item">
+                <span class="stat-num">500+</span>
+                <span class="stat-label">Students</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num">20+</span>
+                <span class="stat-label">Expert Faculty</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num">25+</span>
+                <span class="stat-label">Years of Excellence</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <span class="stat-num">98%</span>
+                <span class="stat-label">Pass Rate</span>
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div id="page2">
+            <div class="section-inner">
+                <div id="about-left">
+                    <div class="section-tag">Who We Are</div>
+                    <h2 class="section-title">A Legacy of Learning<br>Since 2000</h2>
+                    <p class="section-text">Ramnujam Public School has been a beacon of quality education in the heart of Bhopal. We believe every child carries a unique light — our mission is to help them shine it upon the world.</p>
+                    <a href="#" class="btn-primary read-story">Read Our Story</a>
+                    <a href="#" class="btn-primary read-story mt-28">Read Our Story</a>
+                </div>
+                <div id="about-right">
+                    <div id="about-img-wrap">
+                        <img src="second_logo.png" alt="School Logo" id="about-logo">
+                        <div id="about-badge">
+                            <span>25</span>
+                            <small>Years of<br>Excellence</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- WHY CHOOSE US -->
+        <div id="page3">
+            <div class="section-inner col">
+                <div class="section-tag light">Why Choose Us</div>
+                <h2 class="section-title light">Built for Every Bright Mind</h2>
+                <div id="features-grid">
+                    <div class="feature-card">
+                        <div class="feat-icon">📚</div>
+                        <h3>Strong Academics</h3>
+                        <p>BSEB curriculum with focus on conceptual clarity and critical thinking from Grade Nur to 8.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feat-icon">🏆</div>
+                        <h3>Award Winning</h3>
+                        <p>Recognized as one of the top schools in Madhya Pradesh for academic and co-curricular excellence.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feat-icon">🎨</div>
+                        <h3>Arts & Culture</h3>
+                        <p>Dedicated programs in music, dance, fine arts, and drama to nurture every creative talent.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feat-icon">⚽</div>
+                        <h3>Sports & Fitness</h3>
+                        <p>World-class sports facilities including cricket ground, football field, and indoor gymnasium.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feat-icon">💻</div>
+                        <h3>Digital Learning</h3>
+                        <p>State-of-the-art computer labs and e-learning resources to enhance the learning experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feat-icon">🌱</div>
+                        <h3>Holistic Growth</h3>
+                        <p>Beyond textbooks — leadership programs, community service, and personality development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PRINCIPAL MESSAGE -->
+        <div id="page4">
+            <div class="section-inner">
+                <div id="principal-img-side">
+                    <div id="principal-img-box">
+                        <div id="principal-placeholder">
+                            <span>🎓</span>
+                        </div>
+                        <div id="principal-name-tag">
+                            <strong> Maya Sharma </strong>
+                            <span>Principal, RPS</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="principal-text-side">
+                    <div class="section-tag">From The Principal's Desk</div>
+                    <h2 class="section-title">A Message of<br>Inspiration</h2>
+                    <p class="section-text principal-quote">
+                        "Education is not the filling of a pail, but the lighting of a fire. At Ramnujam Public School, we strive to ignite that fire in every child who walks through our doors."
+                    </p>
+                    <p class="section-text">We are committed to providing an environment where curiosity is celebrated, discipline is practised with love, and every student is empowered to achieve their highest potential.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ADMISSION CTA -->
+        <div id="page5">
+            <div id="cta-inner">
+                <h2 id="cta-title">Admissions Open for 2025–26</h2>
+                <p id="cta-sub">Give your child the gift of quality education. Limited seats available.</p>
+                <div id="cta-btns">
+                    <a href="#" class="btn-primary large">Apply Now</a>
+                    <a href="#" class="btn-ghost large">Download Prospectus</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div id="footer">
+            <div id="footer-inner">
+                <div class="footer-col">
+                    <img src="second_logo.png" alt="Logo" class="footer-logo">
+                    <p class="footer-desc">Illuminating minds and shaping futures since the year 2000.</p>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Quick Links</h4>
+                    <a href="#" class="footer-link">Home</a>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Academics</a>
+                    <a href="#" class="footer-link">Admission</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Academics</h4>
+                    <a href="#" class="footer-link">Primary School</a>
+                    <a href="#" class="footer-link">Middle School</a>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contact Us</h4>
+                    <p class="footer-link">📍 Garhani, Bihar Bhojpur</p>
+                    <p class="footer-link">📞 +91 9934608861 </p>
+                    <p class="footer-link">✉️ info@ramnujamschool.com</p>
+                </div>
+            </div>
+            <div id="footer-bottom">
+                <p>© 2025 Ramnujam Public School. All rights reserved.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('box').classList.toggle('open');
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.feature-card, .stat-item, #about-left, #about-right, #principal-text-side, #principal-img-side').forEach(el => {
+            el.classList.add('reveal');
+            observer.observe(el);
+        });
+
+        function animateCounter(el, target) {
+            let count = 0;
+            const step = Math.ceil(target / 60);
+            const timer = setInterval(() => {
+                count += step;
+                if (count >= target) { count = target; clearInterval(timer); }
+                el.textContent = count + (el.dataset.suffix || '');
+            }, 30);
+        }
+
+        const statsObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    document.querySelectorAll('.stat-num').forEach(el => {
+                        const text = el.textContent;
+                        const num = parseInt(text);
+                        const suffix = text.replace(num, '');
+                        el.dataset.suffix = suffix;
+                        animateCounter(el, num);
+                    });
+                    statsObserver.disconnect();
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const statsBar = document.getElementById('stats-bar');
+        if (statsBar) statsObserver.observe(statsBar);
+    </script>
+</body>
+</html>
